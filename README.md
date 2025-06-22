@@ -1,5 +1,3 @@
-# Cyclistic_Data_Analysis_Project
-
 # Cyclistic Bike-Sharing Data Analysis
 
 ## Project Overview
@@ -43,7 +41,7 @@ The cleaned dataset and analysis can be used for:
 - Cleaned trip duration data for accurate analysis
 
 ## License
-[Add your license information here]
+Creative Commons Zero v1.0 Universal
 
 ## Contact
 For questions about the analysis or data, please contact alexamara72@gmail.com
