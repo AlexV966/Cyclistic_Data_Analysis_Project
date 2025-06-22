@@ -1,0 +1,42 @@
+Bike-Sharing Dataset Overview
+
+Dataset Source:
+- Cyclistic's Q1 2019 trip data
+
+Dataset Preparation:
+- Imported into Google Sheets for analysis
+- Cleaned and processed to ensure data quality and relevance
+
+Data Cleaning & Preparation:
+1. Trip Data:
+- Created and calculated trip duration column
+- Removed duplicates and blanks in critical trip ID column
+- Removed latitude/longitude data (irrelevant for analysis)
+- Removed gender and birth year columns (privacy concerns and especially high null values)
+- Removed specific bike ID column (not relevant for analysis)
+- Re-arranged columns for better readability
+
+2. Quality Control:
+- Implemented outlier detection
+- Found significant differences in trip durations between member and casual riders
+- Identified and removed trips longer than 6 hours (likely due to technical issues)
+- Average trip duration:
+* Members: ~11 minutes
+* Casual riders: ~1.6 hours (before outlier removal)
+
+3. Advanced Analysis:
+- Calculated variance of travel times between Member and Casual Riders
+- Analyzed preferred start and end docking stations by user type
+- Conducted day-of-week analysis of station preferences (1-7 for Sun-Mon)
+
+4. Data Structure:
+- Separate visualizations for members and casual riders due to volume differences
+- Day of week represented numerically (1-7 for Sun-Mon)
+
+Data Focus:
+- Emphasis on trip patterns and usage trends
+- Privacy-conscious approach (removed personally identifiable information)
+- Technical error mitigation through outlier detection
+- Detailed analysis of user behavior patterns by type and time
+
+"This cleaned dataset provides a robust foundation for analyzing bike-sharing patterns, focusing on usage patterns and temporal trends while maintaining data quality and user privacy."
